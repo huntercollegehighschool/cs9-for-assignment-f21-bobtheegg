@@ -40,3 +40,16 @@ fizz
 """
 
 # write your code here 
+
+n = int(input("Enter a number: "))
+
+for n in range(1, n + 1):
+  if n%5 == 0:
+    if n%3 == 0:
+     print("fizzbuzz")
+    else:
+      print("buzz")
+  elif n%3 == 0:
+    print("fizz")
+  else:
+    print(n)

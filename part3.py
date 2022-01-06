@@ -19,3 +19,12 @@ Enter the height: 3
 """
 
 #write your code here 
+
+p = "*"
+
+base = int(input("Enter the base: "))
+height = int(input("Enter the height: "))
+
+while height > 0:
+  print (p * base)
+  height = height - 1
